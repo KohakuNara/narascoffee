@@ -1,0 +1,257 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0%;
+}
+
+li{
+    margin-right: 60px;
+    list-style: none;
+    font-family: "Almendra SC";
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    margin: 0%;
+}
+
+.top:hover{
+    color: gray;
+}
+
+.menu:hover{
+    color: gray;
+}
+
+.locations:hover{
+    color: gray;
+}
+
+.header{
+    background-color: #F3F6FF;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-tab{
+    display: flex;
+}
+
+.header-img{
+    padding-left: 60px;
+}
+
+.title-box{
+    background-color: #1B2F62;
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+.title-text{
+    width: 50%;
+    font-family: "Almendra SC";
+    font-size: 70px;
+    /* text-align: center; */
+    padding-top: 200px;
+    padding-left: 30px;
+    color: white;
+}
+
+.narascoffee{
+    margin-bottom: 0%;
+}
+
+.since{
+    font-size: 30px;
+    margin: 0%;
+}
+
+.title-img{
+    position: relative;
+    padding-top: 50px;
+    max-width: 50%;
+}
+
+.title-img::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50px;
+    width: 100%;
+    height: 83.4%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.menu-box{
+    background-color: #B3B3B3;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.menu-p{
+    font-family: "Almendra SC";
+    font-size: 70px;
+    /* text-align: center; */
+    padding-top: 200px;
+    padding-left: 30px;
+    color: black;
+}
+
+.menu-text{
+    width: 25%;
+    padding-top: 50px;
+}
+
+.menu-1{
+    width: 25%;
+    padding-top: 200px;
+}
+
+.menu-2{
+    width: 25%;
+    padding-top: 200px;
+}
+
+.menu-3{
+    width: 25%;
+    padding-top: 200px;
+}
+
+.header-img::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.locations-box{
+    background-color: #B3B3B3;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.locations-img{
+    height: 50%;
+    background-color: #1B2F62;
+    font-family: "Almendra SC";
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+.locations-text{
+    height: 50%;
+    width: 25%;
+}
+
+.locations-p{
+    margin: 0%;
+    font-family: "Almendra SC";
+    font-size: 50px;
+    /* text-align: center; */
+    padding-top: 150px;
+    padding-left: 30px;
+    color: black;
+}
+
+.locations-text-in{
+    width: 37.5%;
+    height: 100%;
+    line-height: 2rem;
+}
+
+.locations-text-in-p{
+    margin: 0%;
+    padding-top: 100px;
+}
+
+.locations-map{
+    width: 37.5%;
+    height: 100%;
+}
+
+.locations-map-in{
+    padding-top: 35px;
+    width: 80%;
+    height: 80%;
+}
+
+.locations-box-2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.locations-title{
+    margin: 0%;
+    padding-top: 110px;
+}
+
+.locations-since{
+    font-size: 30px;
+    margin: 0%;
+}
+
+.copylight-box{
+    max-width: 100%;
+    height: 60px;
+    background-color: #B3B3B3;
+}
+
+.copylight-p{
+    padding-top: 20px;
+    padding-left: 50px
+}
+
+.page-top{
+    display: block;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    background: #FFF;
+    border: 1px solid #999;
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 85%;
+    text-decoration: none;
+    color: #333;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+}
+
+.page-top::before{
+    content: "";
+    display: block;
+    border-top: 2px solid #333;
+    border-right: 2px solid #333;
+    width: 25%;
+    height: 25%;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.page-top:hover{
+    opacity: 1;
+}
